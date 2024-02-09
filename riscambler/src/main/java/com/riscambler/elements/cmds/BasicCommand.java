@@ -1,8 +1,6 @@
-package com.riscambler.operations;
+package com.riscambler.elements.cmds;
 
-import java.util.List;
-
-import com.riscambler.registers.Register;
+import com.riscambler.operations.Operand;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +12,7 @@ class BasicCommand {
     private final String opName;
     private final String opDescr;
     protected final CommandType cmdType;
-    private final List<Register> opOperands;
+    private final Operand[] opOperands;
 
     public void debugCommand() {
         System.out.println(getOpName().toUpperCase() + " : " + getCmdType());

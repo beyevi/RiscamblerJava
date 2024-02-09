@@ -1,4 +1,4 @@
-package com.riscambler.operations;
+package com.riscambler.elements.cmds;
 
 enum CommandType {
     ARITHMETIC,                     // add, sub, mul, div, rem(same as %), neg

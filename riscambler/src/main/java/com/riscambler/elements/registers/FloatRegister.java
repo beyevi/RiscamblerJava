@@ -1,4 +1,4 @@
-package com.riscambler.registers;
+package com.riscambler.elements.registers;
 
 import lombok.Getter;
 import lombok.Setter;

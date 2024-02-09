@@ -1,9 +1,10 @@
 package com.riscambler;
 
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
 
-import com.riscambler.registers.Register;
+import com.riscambler.elements.registers.Register;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Testing registers initialization.

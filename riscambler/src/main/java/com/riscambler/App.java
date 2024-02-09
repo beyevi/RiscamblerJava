@@ -1,12 +1,10 @@
 package com.riscambler;
 
 
-import com.riscambler.registers.Register;
-
 import java.util.Arrays;
 
-import com.riscambler.registers.IntRegister;
-// import com.riscambler.registers.FloatRegister;
+import com.riscambler.elements.registers.IntRegister;
+import com.riscambler.elements.registers.Register;
 
 
 public class App 
